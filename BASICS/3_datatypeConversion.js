@@ -35,6 +35,33 @@ console.log(d1);
 console.log(e1);
 console.log(f1);
 
+console.log(2**4)
+console.log(4%2)
+
+let s1="shivam"
+let s2=" sharma"
+console.log(s1+s2)
+
+
+// some interesting case
+
+console.log("1"+2) //12
+console.log(1+"2") //12
+console.log("1"+2+2); //122 [ if string come first then no arthimetic operation will done]
+console.log(1+2+"3"); //33 [if number come first then arthimetic operation will done]
+
+console.log(true) //true
+console.log(+true) //1
+// console.log(true+);  // give error
+
+// some interesting comparison
+
+console.log(null>0); //false
+console.log(null==0); //false  // it work another way[same as kotlin]
+console.log(null>=0) //true
+
+console.log("2"==2) // true [js first convert "2" to int 2 then compare its value]
+console.log("2"===2) // false both datatype and value are compare
 
 
 
