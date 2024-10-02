@@ -8,6 +8,8 @@ let state // udefined as no value assign to variable
 
 console.table([email, password, city, state])
 
+; // is optional in javascript
+
 /*
     prefer do not to use var 
     as it do not follow the scope
