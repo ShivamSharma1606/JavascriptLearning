@@ -4,6 +4,8 @@ let ready = true //bool
 let married // undefined
 
 /*
+    PRIMITVE DATA TYPE 
+
     number
     bigint
     string
@@ -12,8 +14,17 @@ let married // undefined
     undefined
     symbol -> unique
 
+    REFERENCE DATA TYPE (NON-PRIMITIVE DATA TYPE)
+    array
+    object 
+    function
+
 */
 
 console.log(typeof "shivam"); //string
 console.log(typeof undefined) //undefined
 console.log(typeof null); //object
+
+//important link
+//https://262.ecma-international.org/15.0/index.html#sec-typeof-operator
+
