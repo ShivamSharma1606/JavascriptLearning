@@ -4,7 +4,7 @@ let ready = true //bool
 let married // undefined
 
 /*
-    PRIMITVE DATA TYPE 
+    PRIMITVE DATA TYPE (use stack)
 
     number
     bigint
@@ -14,7 +14,7 @@ let married // undefined
     undefined
     symbol -> unique
 
-    REFERENCE DATA TYPE (NON-PRIMITIVE DATA TYPE)
+    REFERENCE DATA TYPE (NON-PRIMITIVE DATA TYPE) (use heap)
     array
     object 
     function
