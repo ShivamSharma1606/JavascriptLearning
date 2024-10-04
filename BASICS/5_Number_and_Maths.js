@@ -32,8 +32,11 @@ console.log(Math.max(4,6,2,1))
 
 //important
 console.log(Math.random()) //alway value between 0 and 1
+console.log((Math.random()*10)+1)  // to ensure value between 1 and 10
 
-
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*(max-min+1)+min)) //to ensure value between min and max[i.e value alway between 10 and 20]
 
 
 /*
