@@ -18,3 +18,17 @@ console.log(mycreatedate2.toLocaleString());
 
 
 //++++++++++++++++++++ TIME ++++++++++++++++++++
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(mycreatedate.getTime());
+//converting current time into sec
+console.log(Math.floor(Date.now()/1000));
+
+
+console.log(mydate.getMonth()+1)
+
+//more complex query
+console.log(mydate.toLocaleDateString('default',{
+    weekday: "long"
+}))
