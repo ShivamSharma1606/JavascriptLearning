@@ -63,6 +63,30 @@ console.log(null>=0) //true
 console.log("2"==2) // true [js first convert "2" to int 2 then compare its value]
 console.log("2"===2) // false both datatype and value are compare
 
+/*
+Examples of the Unary Plus Operator in action:
 
++true  => 1
+
++false => 0
+
++'10'   => 10
+
++'Hello' => NaN (Not a Number, because it can't be converted to a valid number)
+
++[]    => 0 (An empty array is coerced to 0)
+
++[1]   => 1
+
++['10'] => 10
+
++['10', '20'] => NaN (An array with multiple elements cannot be coerced to a single number)
+
++null  => 0
+
++undefined => NaN
+
+The unary plus operator provides a clean and often preferred alternative to Number(), especially in situations where you want to explicitly signal a type conversion.
+*/
 
 
