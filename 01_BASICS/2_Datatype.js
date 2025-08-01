@@ -28,3 +28,14 @@ console.log(typeof null); //object
 //important link
 //https://262.ecma-international.org/15.0/index.html#sec-typeof-operator
 
+
+/*
+If val is undefined, return "undefined".
+If val is null, return "object".
+If val is a String, return "string".
+If val is a Symbol, return "symbol".
+If val is a Boolean, return "boolean".
+If val is a Number, return "number".
+If val is a BigInt, return "bigint".
+*/
+
