@@ -4,6 +4,7 @@ var password = "123" // value can be change but do not follow scope
 city = "delhi" // automatic variable defined
 let state // udefined as no value assign to variable
 
+// const accountId = 1
 // console.log(accountId); // not allowed
 
 console.table([email, password, city, state])
