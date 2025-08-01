@@ -18,20 +18,38 @@ const nstr= str.substring(0,4)
 console.log(nstr);
 
 const nstr2 =str.slice(-6,4)  // if we give negative value in slice it start from the revers
-console.log(nstr2);
+console.log(nstr2); // output is shiv
+
+/*
+startIndex is -6.
+
+When a negative index is used, slice() counts from the end of the string.
+
+The formula is string.length + negativeIndex.
+
+So, 6 + (-6) equals 0. The extraction will start at index 0, which is the character 's'.
+
+endIndex is 4.
+
+This is a positive index, so slice() counts from the beginning of the string.
+
+The extraction will stop before index 4.
+
+The characters at indices 0, 1, 2, and 3 will be included.
+*/
 
 const nstr3 = "  shivam.  "
 console.log(nstr3)
 console.log(nstr3.trim())
 
 const url="https://youtube.com/shivam%20sharma"
-console.log(url.replace('%20','-'))
-console.log(url.includes('shivam'))
-console.log(url.includes('abes'));
+console.log(url.replace('%20','-')) //output : https://youtube.com/shivam-sharma
+console.log(url.includes('shivam')) //output : true
+console.log(url.includes('abes'));  //output : false
 
 const name="shivam-sharma-jaga-ram"
 console.log(name.split('-'))  //convert the string into array on the basis of '-' symbol(s)
-
+//output : [ 'shivam', 'sharma', 'jaga', 'ram' ]
 
 
 /*
