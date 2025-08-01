@@ -17,3 +17,6 @@ console.table([email, password, city, state])
 */
 
 "use strict"; // treat all js code as newer version
+/*
+    Strict Mode in JavaScript is a feature introduced in ECMAScript 5 that allows developers to opt into a restricted variant of JavaScript. This mode enforces stricter parsing and error handling, making the language less forgiving of certain coding practices that might otherwise lead to silent errors or problematic behaviors in "sloppy mode" (the default, non-strict mode).
+*/
